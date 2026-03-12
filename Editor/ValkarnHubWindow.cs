@@ -46,6 +46,8 @@ namespace UnaPartidaMas.Valkarn.Editor
         GUIStyle versionStyle;
         bool stylesReady;
 
+        Texture2D coverTexture;
+
         [MenuItem("Tools/Valkarn/Hub", priority = 0)]
         public static void Open()
         {
@@ -120,7 +122,24 @@ namespace UnaPartidaMas.Valkarn.Editor
         void DrawHeader(Rect rect)
         {
             EditorGUI.DrawRect(rect, new Color(0.13f, 0.13f, 0.13f));
-            GUI.Label(new Rect(rect.x + 12, rect.y + 10, rect.width - 80, 28), "Valkarn", headerStyle);
+
+            if (coverTexture == null)
+                coverTexture = AssetDatabase.LoadAssetAtPath<Texture2D>(
+                    "Packages/com.unapartidamas.valkarn.tasks/Editor/valkarn-tasks-cover.png");
+
+            if (coverTexture != null)
+            {
+                float aspect = (float)coverTexture.width / coverTexture.height;
+                float imgHeight = rect.height - 8f;
+                float imgWidth  = imgHeight * aspect;
+                var imgRect = new Rect(rect.x + 8, rect.y + 4, imgWidth, imgHeight);
+                GUI.DrawTexture(imgRect, coverTexture, ScaleMode.ScaleToFit);
+            }
+            else
+            {
+                GUI.Label(new Rect(rect.x + 12, rect.y + 10, rect.width - 80, 28), "Valkarn", headerStyle);
+            }
+
             GUI.Label(new Rect(rect.xMax - 140, rect.yMax - 16, 136, 14), "unapartidamas.com", versionStyle);
         }
 
