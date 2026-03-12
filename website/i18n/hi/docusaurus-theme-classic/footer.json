@@ -1,0 +1,11 @@
+{
+  "link.title.Docs": { "message": "दस्तावेज़" },
+  "link.title.More": { "message": "अधिक" },
+  "link.item.label.Installation": { "message": "इंस्टॉलेशन" },
+  "link.item.label.Quick Start": { "message": "त्वरित प्रारंभ" },
+  "link.item.label.API Reference": { "message": "API संदर्भ" },
+  "link.item.label.GitHub": { "message": "GitHub" },
+  "link.item.label.Licensing": { "message": "लाइसेंसिंग" },
+  "link.item.label.Una Partida Mas": { "message": "Una Partida Mas" },
+  "copyright": { "message": "Copyright © 2024 Una Partida Mas. Docusaurus के साथ निर्मित।" }
+}

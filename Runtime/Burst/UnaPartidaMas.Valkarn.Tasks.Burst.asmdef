@@ -1,0 +1,22 @@
+{
+    "name": "UnaPartidaMas.Valkarn.Tasks.Burst",
+    "rootNamespace": "UnaPartidaMas.Valkarn.Tasks.Burst",
+    "references": [
+        "UnaPartidaMas.Valkarn.Tasks",
+        "Unity.Burst",
+        "Unity.Collections",
+        "Unity.Jobs"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "VTASKS_HAS_BURST",
+        "VTASKS_HAS_COLLECTIONS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

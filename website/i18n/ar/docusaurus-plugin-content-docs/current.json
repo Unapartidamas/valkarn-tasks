@@ -1,0 +1,8 @@
+{
+  "version.label": { "message": "الحالية", "description": "The label for version current" },
+  "sidebar.docsSidebar.category.Getting Started": { "message": "البدء", "description": "Sidebar category" },
+  "sidebar.docsSidebar.category.Core Concepts": { "message": "المفاهيم الأساسية", "description": "Sidebar category" },
+  "sidebar.docsSidebar.category.API Reference": { "message": "مرجع واجهة API", "description": "Sidebar category" },
+  "sidebar.docsSidebar.category.Advanced": { "message": "متقدم", "description": "Sidebar category" },
+  "sidebar.docsSidebar.category.Legal": { "message": "قانوني", "description": "Sidebar category" }
+}

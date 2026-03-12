@@ -1,0 +1,11 @@
+{
+  "link.title.Docs": { "message": "Documentation" },
+  "link.title.More": { "message": "Plus" },
+  "link.item.label.Installation": { "message": "Installation" },
+  "link.item.label.Quick Start": { "message": "Démarrage rapide" },
+  "link.item.label.API Reference": { "message": "Référence API" },
+  "link.item.label.GitHub": { "message": "GitHub" },
+  "link.item.label.Licensing": { "message": "Licences" },
+  "link.item.label.Una Partida Mas": { "message": "Una Partida Mas" },
+  "copyright": { "message": "Copyright © 2024 Una Partida Mas. Construit avec Docusaurus." }
+}

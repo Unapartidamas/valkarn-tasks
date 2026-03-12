@@ -1,0 +1,19 @@
+{
+    "name": "UnaPartidaMas.Valkarn.Tasks.ECS",
+    "rootNamespace": "UnaPartidaMas.Valkarn.Tasks.ECS",
+    "references": [
+        "UnaPartidaMas.Valkarn.Tasks",
+        "Unity.Entities"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "VTASKS_HAS_ENTITIES"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

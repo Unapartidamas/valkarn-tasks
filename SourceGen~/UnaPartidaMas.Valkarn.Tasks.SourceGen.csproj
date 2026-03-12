@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <EnforceExtendedAnalyzerRules>true</EnforceExtendedAnalyzerRules>
+    <IsRoslynComponent>true</IsRoslynComponent>
+    <RootNamespace>UnaPartidaMas.Valkarn.Tasks.SourceGen</RootNamespace>
+    <AssemblyName>UnaPartidaMas.Valkarn.Tasks.SourceGen</AssemblyName>
+    <!-- Suppress netstandard2.0 nullable warnings -->
+    <Nullable>disable</Nullable>
+    <!-- Suppress release tracking warnings (not a public NuGet package) -->
+    <NoWarn>RS2008</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.3.0" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.4" PrivateAssets="all" />
+  </ItemGroup>
+
+</Project>

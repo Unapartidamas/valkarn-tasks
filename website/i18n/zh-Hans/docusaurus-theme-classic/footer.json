@@ -1,0 +1,11 @@
+{
+  "link.title.Docs": { "message": "文档" },
+  "link.title.More": { "message": "更多" },
+  "link.item.label.Installation": { "message": "安装" },
+  "link.item.label.Quick Start": { "message": "快速开始" },
+  "link.item.label.API Reference": { "message": "API 参考" },
+  "link.item.label.GitHub": { "message": "GitHub" },
+  "link.item.label.Licensing": { "message": "许可" },
+  "link.item.label.Una Partida Mas": { "message": "Una Partida Mas" },
+  "copyright": { "message": "Copyright © 2024 Una Partida Mas. 使用 Docusaurus 构建。" }
+}

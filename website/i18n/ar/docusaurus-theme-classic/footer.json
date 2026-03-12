@@ -1,0 +1,11 @@
+{
+  "link.title.Docs": { "message": "التوثيق" },
+  "link.title.More": { "message": "المزيد" },
+  "link.item.label.Installation": { "message": "التثبيت" },
+  "link.item.label.Quick Start": { "message": "البدء السريع" },
+  "link.item.label.API Reference": { "message": "مرجع واجهة API" },
+  "link.item.label.GitHub": { "message": "GitHub" },
+  "link.item.label.Licensing": { "message": "الترخيص" },
+  "link.item.label.Una Partida Mas": { "message": "Una Partida Mas" },
+  "copyright": { "message": "حقوق النشر © 2024 Una Partida Mas. مبني باستخدام Docusaurus." }
+}

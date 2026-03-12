@@ -1,0 +1,27 @@
+{
+    "name": "UnaPartidaMas.Valkarn.Tasks.Tests.ECS",
+    "rootNamespace": "UnaPartidaMas.Valkarn.Tasks.Tests.ECS",
+    "references": [
+        "UnaPartidaMas.Valkarn.Tasks",
+        "UnaPartidaMas.Valkarn.Tasks.ECS",
+        "UnaPartidaMas.Valkarn.Tasks.Testing",
+        "Unity.Entities",
+        "Unity.Collections"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS",
+        "VTASKS_HAS_ENTITIES"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

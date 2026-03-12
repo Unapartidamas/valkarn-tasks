@@ -1,0 +1,11 @@
+{
+  "link.title.Docs": { "message": "Документация" },
+  "link.title.More": { "message": "Ещё" },
+  "link.item.label.Installation": { "message": "Установка" },
+  "link.item.label.Quick Start": { "message": "Быстрый старт" },
+  "link.item.label.API Reference": { "message": "Справочник API" },
+  "link.item.label.GitHub": { "message": "GitHub" },
+  "link.item.label.Licensing": { "message": "Лицензирование" },
+  "link.item.label.Una Partida Mas": { "message": "Una Partida Mas" },
+  "copyright": { "message": "Copyright © 2024 Una Partida Mas. Создано с помощью Docusaurus." }
+}

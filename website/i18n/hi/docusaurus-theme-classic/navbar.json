@@ -1,0 +1,6 @@
+{
+  "title": { "message": "Valkarn Tasks", "description": "The title in the navbar" },
+  "item.label.Docs": { "message": "दस्तावेज़", "description": "Navbar item Docs" },
+  "item.label.Licensing": { "message": "लाइसेंसिंग", "description": "Navbar item Licensing" },
+  "item.label.GitHub": { "message": "GitHub", "description": "Navbar item GitHub" }
+}
