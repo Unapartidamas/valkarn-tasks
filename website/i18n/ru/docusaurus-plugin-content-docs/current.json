@@ -1,0 +1,8 @@
+{
+  "version.label": { "message": "Текущая", "description": "The label for version current" },
+  "sidebar.docsSidebar.category.Getting Started": { "message": "Начало работы", "description": "Sidebar category" },
+  "sidebar.docsSidebar.category.Core Concepts": { "message": "Основные концепции", "description": "Sidebar category" },
+  "sidebar.docsSidebar.category.API Reference": { "message": "Справочник API", "description": "Sidebar category" },
+  "sidebar.docsSidebar.category.Advanced": { "message": "Продвинутые темы", "description": "Sidebar category" },
+  "sidebar.docsSidebar.category.Legal": { "message": "Юридическая информация", "description": "Sidebar category" }
+}

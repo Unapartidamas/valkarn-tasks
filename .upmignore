@@ -1,0 +1,8 @@
+# Website source (not part of the Unity package)
+website/
+
+# CI/CD
+.github/
+
+# Git
+.gitignore

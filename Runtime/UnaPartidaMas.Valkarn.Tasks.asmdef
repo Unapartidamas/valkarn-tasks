@@ -1,0 +1,30 @@
+{
+    "name": "UnaPartidaMas.Valkarn.Tasks",
+    "rootNamespace": "UnaPartidaMas.Valkarn.Tasks",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.entities",
+            "expression": "1.0.0",
+            "define": "VTASKS_HAS_ENTITIES"
+        },
+        {
+            "name": "com.unity.burst",
+            "expression": "1.8.0",
+            "define": "VTASKS_HAS_BURST"
+        },
+        {
+            "name": "com.unity.collections",
+            "expression": "2.1.0",
+            "define": "VTASKS_HAS_COLLECTIONS"
+        }
+    ],
+    "noEngineReferences": false
+}

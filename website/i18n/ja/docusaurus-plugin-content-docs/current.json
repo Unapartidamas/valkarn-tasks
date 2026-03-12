@@ -1,0 +1,8 @@
+{
+  "version.label": { "message": "現行", "description": "The label for version current" },
+  "sidebar.docsSidebar.category.Getting Started": { "message": "はじめに", "description": "Sidebar category" },
+  "sidebar.docsSidebar.category.Core Concepts": { "message": "コアコンセプト", "description": "Sidebar category" },
+  "sidebar.docsSidebar.category.API Reference": { "message": "APIリファレンス", "description": "Sidebar category" },
+  "sidebar.docsSidebar.category.Advanced": { "message": "上級", "description": "Sidebar category" },
+  "sidebar.docsSidebar.category.Legal": { "message": "法的情報", "description": "Sidebar category" }
+}

@@ -1,0 +1,82 @@
+/* ── Fonts ─────────────────────────────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300..900;1,14..32,300..900&family=JetBrains+Mono:wght@400;500&display=swap');
+
+/* ── Brand tokens ──────────────────────────────────────────────────────────── */
+:root {
+  --ifm-color-primary: #7c6af5;
+  --ifm-color-primary-dark: #6554f3;
+  --ifm-color-primary-darker: #5a48f2;
+  --ifm-color-primary-darkest: #3d2bef;
+  --ifm-color-primary-light: #9380f7;
+  --ifm-color-primary-lighter: #9e8df8;
+  --ifm-color-primary-lightest: #bcb0fb;
+  --ifm-code-font-size: 93%;
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
+  --ifm-font-family-monospace: 'JetBrains Mono', 'Fira Code', monospace;
+  --docusaurus-highlighted-code-line-bg: rgba(124, 106, 245, 0.15);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #9380f7;
+  --ifm-color-primary-dark: #7c6af5;
+  --ifm-color-primary-darker: #7261f4;
+  --ifm-color-primary-darkest: #5341f1;
+  --ifm-color-primary-light: #aa9ef9;
+  --ifm-color-primary-lighter: #b4aafa;
+  --ifm-color-primary-lightest: #d2ccfc;
+  --ifm-background-color: #09080f;
+  --ifm-background-surface-color: #0f0d1c;
+  --ifm-navbar-background-color: rgba(9, 8, 15, 0.85);
+  --ifm-toc-border-color: rgba(124, 106, 245, 0.15);
+  --ifm-color-content: #c4bfdf;
+  --ifm-heading-color: #f0eeff;
+  --docusaurus-highlighted-code-line-bg: rgba(147, 128, 247, 0.2);
+}
+
+/* ── Navbar ────────────────────────────────────────────────────────────────── */
+.navbar {
+  border-bottom: 1px solid rgba(124, 106, 245, 0.12);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+[data-theme='dark'] .navbar {
+  background: rgba(9, 8, 15, 0.85);
+}
+
+.navbar__title {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+/* ── Sidebar ───────────────────────────────────────────────────────────────── */
+[data-theme='dark'] .theme-doc-sidebar-container {
+  border-right-color: rgba(124, 106, 245, 0.1);
+}
+
+/* ── Code blocks ───────────────────────────────────────────────────────────── */
+[data-theme='dark'] pre {
+  background: #110f1c !important;
+  border: 1px solid rgba(124, 106, 245, 0.12);
+}
+
+/* ── Docs content ──────────────────────────────────────────────────────────── */
+[data-theme='dark'] .markdown h1,
+[data-theme='dark'] .markdown h2,
+[data-theme='dark'] .markdown h3 {
+  color: #f0eeff;
+}
+
+[data-theme='dark'] .markdown a {
+  color: #a89af9;
+}
+
+[data-theme='dark'] .markdown a:hover {
+  color: #c4bfdf;
+}
+
+/* ── Scrollbar ─────────────────────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(124, 106, 245, 0.3); border-radius: 999px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(124, 106, 245, 0.5); }

@@ -1,0 +1,23 @@
+{
+    "name": "UnaPartidaMas.Valkarn.Tasks.Tests",
+    "rootNamespace": "UnaPartidaMas.Valkarn.Tasks.Tests",
+    "references": [
+        "UnaPartidaMas.Valkarn.Tasks",
+        "UnaPartidaMas.Valkarn.Tasks.Testing"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

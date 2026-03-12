@@ -1,0 +1,8 @@
+{
+  "version.label": { "message": "वर्तमान", "description": "The label for version current" },
+  "sidebar.docsSidebar.category.Getting Started": { "message": "शुरुआत करें", "description": "Sidebar category" },
+  "sidebar.docsSidebar.category.Core Concepts": { "message": "मूल अवधारणाएँ", "description": "Sidebar category" },
+  "sidebar.docsSidebar.category.API Reference": { "message": "API संदर्भ", "description": "Sidebar category" },
+  "sidebar.docsSidebar.category.Advanced": { "message": "उन्नत", "description": "Sidebar category" },
+  "sidebar.docsSidebar.category.Legal": { "message": "कानूनी", "description": "Sidebar category" }
+}

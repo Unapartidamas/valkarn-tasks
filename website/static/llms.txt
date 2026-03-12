@@ -1,0 +1,48 @@
+# Valkarn Tasks
+
+> Zero-allocation, struct-based async/await framework for Unity.
+> Faster than UniTask. Source-generated lifecycle cancellation. Burst & ECS ready.
+
+Valkarn Tasks is a Unity package providing a high-performance async/await implementation
+that avoids heap allocations on the happy path, auto-cancels tasks when MonoBehaviours
+are destroyed (via source generator), integrates with Unity Burst and ECS, and ships
+17 Roslyn analyzer rules that catch async bugs at compile time.
+
+License: Free for individuals and studios under $1M/year revenue.
+Commercial license: https://tasks.valkarn.com/licensing
+
+## Getting Started
+
+- [Installation](https://tasks.valkarn.com/docs/installation): Optional packages (unlocks additional features):
+- [Quick Start](https://tasks.valkarn.com/docs/quick-start): using UnaPartidaMas.Valkarn.Tasks;
+- [Migration from UniTask](https://tasks.valkarn.com/docs/migration-from-unitask): Valkarn Tasks is API-compatible with UniTask in most common cases. This guide covers the differences.
+## Core Concepts
+
+- [Struct Tasks](https://tasks.valkarn.com/docs/concepts/struct-tasks): VlkTask and VlkTask<T> are the core async return types in Valkarn Tasks. Unlike System.Threading.Tasks.Task, which is a reference type that always allocates on the heap, both Valka
+- [Object Pooling](https://tasks.valkarn.com/docs/concepts/pooling): Valkarn Tasks eliminates GC allocations on common async paths by pooling the objects that back each VlkTask. This page explains the pool architecture — how objects are stored, how 
+- [Unity PlayerLoop Integration](https://tasks.valkarn.com/docs/concepts/player-loop): ValkarnTasks does not use threads or background schedulers to resume your async methods. Everything runs on Unity's main thread, driven by Unity's own PlayerLoop system. Understand
+- [Auto-Cancel Lifecycle Binding](https://tasks.valkarn.com/docs/concepts/auto-cancel): One of the most common bugs in Unity async code is launching a task from a MonoBehaviour and then forgetting to cancel it when the object is destroyed. The task continues running, 
+## API Reference
+
+- [VlkTask](https://tasks.valkarn.com/docs/api/vlk-task): VlkTask is the core awaitable type. It is a readonly struct — no heap allocation on the happy path (when the task completes synchronously or via pool).
+- [VlkTask<T>](https://tasks.valkarn.com/docs/api/vlk-task-t): VlkTask<T> is the value-returning async task type in Valkarn Tasks. It is a readonly struct, carrying either an inline result (when synchronously completed) or a reference to a poo
+- [Completion Sources](https://tasks.valkarn.com/docs/api/completion-source): VlkTaskCompletionSource<T> and the non-generic VlkTaskCompletionSource give you manual control over a VlkTask. They are the async equivalent of writing the result yourself — you ho
+- [Channels](https://tasks.valkarn.com/docs/api/channels): Channels provide a thread-safe, async-capable pipeline for passing data between producers and consumers. They are particularly suited to game systems where work is generated on one
+- [PlayerLoopTiming](https://tasks.valkarn.com/docs/api/player-loop-timing): public enum PlayerLoopTiming : byte
+- [Settings & Result](https://tasks.valkarn.com/docs/api/settings): VlkTaskSettings is a Unity ScriptableObject that controls the runtime behavior of Valkarn Tasks — primarily the object pool that recycles async state machines and promise objects t
+## Advanced
+
+- [Burst & ECS Integration](https://tasks.valkarn.com/docs/advanced/burst-ecs): Valkarn Tasks includes optional integration with Unity's Burst compiler, Unity Collections, and the Entities (ECS) package. All of this functionality is conditionally compiled — it
+- [Job & Awaitable Bridges](https://tasks.valkarn.com/docs/advanced/job-bridge): Valkarn Tasks provides a set of bridge types that connect Unity's Job System and the Awaitable API to the VlkTask pipeline. Each bridge is a thin, allocation-minimizing layer; ther
+- [Analyzer Rules](https://tasks.valkarn.com/docs/advanced/analyzers): Valkarn Tasks ships two Roslyn analyzer packages that activate automatically when the package is imported:
+- [IL2CPP Compatibility](https://tasks.valkarn.com/docs/advanced/il2cpp): Valkarn Tasks is designed to work correctly under IL2CPP from the ground up. This page describes every measure taken and what you need to do — or not do — to ship safely on IL2CPP 
+- [Testing](https://tasks.valkarn.com/docs/advanced/testing): Valkarn Tasks ships a dedicated testing infrastructure that lets you write fast, deterministic unit tests for async code — no real timers, no frame waits, no Unity Editor required 
+## Getting Started
+
+- [License](https://tasks.valkarn.com/docs/license): All uses require the following attribution visible to end users:
+
+## Optional
+
+- [License](https://tasks.valkarn.com/docs/license): Full license terms and commercial licensing information.
+- [GitHub Repository](https://github.com/unapartidamas/valkarn-tasks): Source code, issues, and contributions.
+- [Commercial Licensing](https://tasks.valkarn.com/licensing): Purchase an Annual Commercial License.

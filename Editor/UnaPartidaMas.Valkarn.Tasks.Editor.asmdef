@@ -1,0 +1,18 @@
+{
+    "name": "UnaPartidaMas.Valkarn.Tasks.Editor",
+    "rootNamespace": "UnaPartidaMas.Valkarn.Tasks.Editor",
+    "references": [
+        "UnaPartidaMas.Valkarn.Tasks"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

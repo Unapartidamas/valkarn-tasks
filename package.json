@@ -1,0 +1,34 @@
+{
+    "name": "com.unapartidamas.valkarn.tasks",
+    "version": "1.0.0",
+    "displayName": "Valkarn Tasks for Unity",
+    "description": "Zero-allocation async/await framework for Unity. Struct-based tasks, pooled runners, IL2CPP-optimized, with lifecycle cancellation, channels, and compile-time diagnostics.",
+    "unity": "2023.1",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/unapartidamas/valkarn-tasks.git"
+    },
+    "documentationUrl": "https://github.com/unapartidamas/valkarn-tasks#readme",
+    "changelogUrl": "https://github.com/unapartidamas/valkarn-tasks/blob/main/CHANGELOG.md",
+    "licensesUrl": "https://github.com/unapartidamas/valkarn-tasks/blob/main/LICENSE.md",
+    "author": {
+        "name": "Una Partida Mas",
+        "url": "https://github.com/unapartidamas"
+    },
+    "keywords": [
+        "async",
+        "await",
+        "task",
+        "zero-allocation",
+        "coroutine"
+    ],
+    "category": "Scripting",
+    "samples": [
+        {
+            "displayName": "ECS Examples",
+            "description": "Async systems, job bridge, and AI examples for Unity ECS.",
+            "path": "Samples~/ECS"
+        }
+    ]
+}

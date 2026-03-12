@@ -1,0 +1,29 @@
+{
+    "name": "UnaPartidaMas.Valkarn.Tasks.Tests.Burst",
+    "rootNamespace": "UnaPartidaMas.Valkarn.Tasks.Tests.Burst",
+    "references": [
+        "UnaPartidaMas.Valkarn.Tasks",
+        "UnaPartidaMas.Valkarn.Tasks.Burst",
+        "UnaPartidaMas.Valkarn.Tasks.Testing",
+        "Unity.Burst",
+        "Unity.Collections",
+        "Unity.Jobs"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS",
+        "VTASKS_HAS_BURST",
+        "VTASKS_HAS_COLLECTIONS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

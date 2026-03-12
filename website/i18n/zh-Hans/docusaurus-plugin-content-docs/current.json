@@ -1,0 +1,8 @@
+{
+  "version.label": { "message": "当前", "description": "The label for version current" },
+  "sidebar.docsSidebar.category.Getting Started": { "message": "快速入门", "description": "Sidebar category" },
+  "sidebar.docsSidebar.category.Core Concepts": { "message": "核心概念", "description": "Sidebar category" },
+  "sidebar.docsSidebar.category.API Reference": { "message": "API 参考", "description": "Sidebar category" },
+  "sidebar.docsSidebar.category.Advanced": { "message": "进阶", "description": "Sidebar category" },
+  "sidebar.docsSidebar.category.Legal": { "message": "法律", "description": "Sidebar category" }
+}

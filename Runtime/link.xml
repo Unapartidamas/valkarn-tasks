@@ -1,0 +1,9 @@
+<linker>
+  <!-- Preserve all types in the Valkarn.Tasks runtime assembly.
+       IL2CPP code stripping can remove internal types accessed only via
+       interface dispatch, generic sharing, or reflection (e.g. promise
+       classes, pooled runners, ISource implementations). -->
+  <assembly fullname="UnaPartidaMas.Valkarn.Tasks" preserve="all"/>
+  <assembly fullname="UnaPartidaMas.Valkarn.Tasks.Burst" preserve="all"/>
+  <assembly fullname="UnaPartidaMas.Valkarn.Tasks.ECS" preserve="all"/>
+</linker>

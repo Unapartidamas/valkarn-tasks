@@ -1,0 +1,45 @@
+# Build outputs
+bin/
+obj/
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+
+# IDE
+.vs/
+.idea/
+*.user
+*.suo
+*.userprefs
+
+# Unity
+Library/
+Temp/
+Logs/
+UserSettings/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# NuGet
+*.nupkg
+packages/
+
+# Internal test runner (not part of the Unity package)
+_TestRunner~/
+
+# Internal documentation (not for public distribution)
+docs/
+
+# MSBuild
+Directory.Build.props
+Directory.Build.props.meta
+
+# Local Docker dev setup
+docker/
+
+# Website build artifacts
+website/.docusaurus/
+website/build/
+website/node_modules/

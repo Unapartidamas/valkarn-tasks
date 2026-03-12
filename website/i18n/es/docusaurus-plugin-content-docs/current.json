@@ -1,0 +1,8 @@
+{
+  "version.label": { "message": "Actual", "description": "The label for version current" },
+  "sidebar.docsSidebar.category.Getting Started": { "message": "Primeros pasos", "description": "Sidebar category" },
+  "sidebar.docsSidebar.category.Core Concepts": { "message": "Conceptos fundamentales", "description": "Sidebar category" },
+  "sidebar.docsSidebar.category.API Reference": { "message": "Referencia API", "description": "Sidebar category" },
+  "sidebar.docsSidebar.category.Advanced": { "message": "Avanzado", "description": "Sidebar category" },
+  "sidebar.docsSidebar.category.Legal": { "message": "Legal", "description": "Sidebar category" }
+}
