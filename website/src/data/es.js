@@ -1,7 +1,7 @@
 // Español — datos de la página en locale español
 const data = {
   hero: {
-    pill:  'Unity 2023.1+ · Gratuito para indie',
+    pill:  'Unity 2023.1+ · MIT · Gratis para todos',
     h1:    'Async/await',
     h1Grad:'sin basura.',
     p1:    'Tareas basadas en struct. Cancelación generada por código fuente.',
@@ -193,7 +193,7 @@ const data = {
 
   cta: {
     heading:    'Envía más rápido. Asigna menos.',
-    p1:         'Gratuito para individuos y estudios con ingresos anuales inferiores a $1M.',
+    p1:         'MIT open source — gratis para todos. Licencia comercial opcional disponible.',
     p2:         'Una línea en tu manifiesto. Sin cuenta requerida.',
     btnPrimary: 'Comenzar →',
     btnGhost:   'Ver Licencia',

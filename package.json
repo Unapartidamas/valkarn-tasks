@@ -4,7 +4,7 @@
     "displayName": "Valkarn Tasks for Unity",
     "description": "Zero-allocation async/await framework for Unity. Struct-based tasks, pooled runners, IL2CPP-optimized, with lifecycle cancellation, channels, and compile-time diagnostics.",
     "unity": "2023.1",
-    "license": "SEE LICENSE IN LICENSE.md",
+    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/unapartidamas/valkarn-tasks.git"

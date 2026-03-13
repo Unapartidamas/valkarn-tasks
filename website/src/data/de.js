@@ -1,7 +1,7 @@
 // Deutsch — Übersetzung der Seitendaten
 const data = {
   hero: {
-    pill:  'Unity 2023.1+ · Kostenlos für Indie',
+    pill:  'Unity 2023.1+ · MIT · Kostenlos für alle',
     h1:    'Async/await',
     h1Grad:'ohne Garbage.',
     p1:    'Struct-basierte Tasks. Quellgenerierte Abbruchlogik.',
@@ -193,7 +193,7 @@ const data = {
 
   cta: {
     heading:    'Schneller liefern. Weniger allozieren.',
-    p1:         'Kostenlos für Einzelpersonen und Studios mit weniger als 1 Mio. USD Jahresumsatz.',
+    p1:         'MIT open source — kostenlos für alle. Optionale kommerzielle Lizenz verfügbar.',
     p2:         'Eine Zeile in Ihrer Manifest-Datei. Kein Konto erforderlich.',
     btnPrimary: 'Jetzt starten →',
     btnGhost:   'Lizenz ansehen',

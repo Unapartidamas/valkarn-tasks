@@ -1,7 +1,7 @@
 // Hindi — hi locale page data
 const data = {
   hero: {
-    pill:  'Unity 2023.1+ · इंडी के लिए निःशुल्क',
+    pill:  'Unity 2023.1+ · MIT · सभी के लिए मुफ्त',
     h1:    'Async/await',
     h1Grad:'बिना कचरे के।',
     p1:    'Struct-आधारित tasks। Source-generated रद्दीकरण।',
@@ -193,7 +193,7 @@ const data = {
 
   cta: {
     heading:    'तेज़ ship करें। कम आवंटित करें।',
-    p1:         '$1M/वर्ष revenue से कम के व्यक्तियों और studios के लिए निःशुल्क।',
+    p1:         'MIT ओपन सोर्स — सभी के लिए मुफ्त। वैकल्पिक वाणिज्यिक लाइसेंस उपलब्ध।',
     p2:         'आपके manifest में एक line। कोई account आवश्यक नहीं।',
     btnPrimary: 'शुरू करें →',
     btnGhost:   'License देखें',

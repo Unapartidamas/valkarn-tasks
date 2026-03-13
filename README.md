@@ -3,7 +3,7 @@
 > Zero-allocation, struct-based async/await framework for Unity. Faster than UniTask. Source-generated lifecycle cancellation. Burst & ECS ready.
 
 [![Unity](https://img.shields.io/badge/Unity-2023.1%2B-black)](https://unity.com)
-[![License](https://img.shields.io/badge/license-free%20%2F%20commercial-blue)](LICENSE.md)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE.md)
 
 ---
 
@@ -122,7 +122,7 @@ Full documentation at **[tasks.valkarn.com](https://tasks.valkarn.com)**
 
 ## License
 
-Free for individuals and studios under $1M/year revenue. Commercial license required above that threshold — see [LICENSE.md](LICENSE.md).
+MIT — free for everyone. An optional commercial license is available for studios that want priority support, warranty, and indemnification — see [LICENSE.md](LICENSE.md).
 
 ---
 
