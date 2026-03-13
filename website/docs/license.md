@@ -5,28 +5,31 @@ title: License
 
 # License
 
-## Free License
+Valkarn Tasks is open source under the **MIT License** — free for everyone, with no revenue thresholds or restrictions.
 
-Free for **individuals** and **organizations with annual gross revenue below $1,000,000 USD**.
+## MIT License
 
-You may use, copy, modify, and distribute Valkarn Tasks in your projects at no cost,
-provided the copyright notice is included in all copies or substantial portions of the software.
+Copyright (c) Una Partida Mas
 
-## Commercial License
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-Organizations with **annual gross revenue of $1,000,000 USD or more** must obtain a Commercial License.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-**$199 / year** — covers all games and products publicly launched during the 12-month license period.
-
-[Purchase a Commercial License →](https://tasks.valkarn.com/licensing)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ---
 
-## Contributions
+## Commercial License (optional)
 
-All contributions are subject to our [Contributor License Agreement (CLA)](https://github.com/unapartidamas/valkarn-tasks/blob/master/CLA.md).
-By submitting a pull request you agree to its terms.
+A **Commercial License** is available for studios and companies that want:
+
+- Priority bug fixes and feature requests
+- Commercial warranty and legal indemnification
+- Dedicated support with guaranteed response times
+- Invoice and receipt for accounting purposes
+
+[Learn more →](https://tasks.valkarn.com/licensing)
 
 ---
 
-Full license text: [LICENSE.md on GitHub](https://github.com/unapartidamas/valkarn-tasks/blob/master/LICENSE.md)
+Full license text: [LICENSE.md on GitHub](https://github.com/unapartidamas/valkarn-tasks/blob/main/LICENSE.md)

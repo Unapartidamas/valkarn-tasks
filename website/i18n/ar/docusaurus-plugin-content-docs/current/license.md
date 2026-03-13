@@ -5,28 +5,31 @@ title: الترخيص
 
 # الترخيص
 
-## الترخيص المجاني
+Valkarn Tasks هو مشروع مفتوح المصدر تحت **MIT License** — مجاني للجميع، بدون حدود إيرادات أو قيود.
 
-مجاني للـ**أفراد** و**المنظمات ذات الإيرادات السنوية الإجمالية التي تقل عن 1,000,000 دولار أمريكي**.
+## MIT License
 
-يمكنك استخدام Valkarn Tasks ونسخه وتعديله وتوزيعه في مشاريعك مجانًا،
-شريطة تضمين إشعار حقوق النشر في جميع النسخ أو الأجزاء الجوهرية من البرنامج.
+Copyright (c) Una Partida Mas
 
-## الترخيص التجاري
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-يجب على المنظمات ذات **الإيرادات السنوية الإجمالية البالغة 1,000,000 دولار أمريكي أو أكثر** الحصول على ترخيص تجاري.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-**$199 / سنة** — يغطي جميع الألعاب والمنتجات التي أُطلقت علنًا خلال فترة الترخيص الممتدة لـ 12 شهرًا.
-
-[شراء ترخيص تجاري →](https://tasks.valkarn.com/licensing)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ---
 
-## المساهمات
+## الترخيص التجاري (اختياري)
 
-تخضع جميع المساهمات لـ[اتفاقية ترخيص المساهم (CLA)](https://github.com/unapartidamas/valkarn-tasks/blob/master/CLA.md).
-بتقديم طلب سحب، فإنك توافق على شروطها.
+يتوفر **ترخيص تجاري** للاستوديوهات والشركات التي تحتاج إلى:
+
+- إصلاحات الأخطاء ذات الأولوية وطلبات الميزات
+- ضمان تجاري وتعويض قانوني
+- دعم مخصص مع أوقات استجابة مضمونة
+- فاتورة وإيصال للأغراض المحاسبية
+
+[اعرف المزيد →](https://tasks.valkarn.com/licensing)
 
 ---
 
-النص الكامل للترخيص: [LICENSE.md على GitHub](https://github.com/unapartidamas/valkarn-tasks/blob/master/LICENSE.md)
+النص الكامل للترخيص: [LICENSE.md على GitHub](https://github.com/unapartidamas/valkarn-tasks/blob/main/LICENSE.md)

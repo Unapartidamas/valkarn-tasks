@@ -5,28 +5,31 @@ title: Lizenz
 
 # Lizenz
 
-## Kostenlose Lizenz
+Valkarn Tasks ist Open Source unter der **MIT License** — kostenlos für alle, ohne Umsatzschwellen oder Einschränkungen.
 
-Kostenlos für **Einzelpersonen** und **Organisationen mit einem Jahresumsatz unter 1.000.000 USD**.
+## MIT License
 
-Sie dürfen Valkarn Tasks in Ihren Projekten kostenlos verwenden, kopieren, modifizieren und verteilen,
-sofern der Urheberrechtshinweis in allen Kopien oder wesentlichen Teilen der Software enthalten ist.
+Copyright (c) Una Partida Mas
 
-## Kommerzielle Lizenz
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-Organisationen mit einem **Jahresumsatz von 1.000.000 USD oder mehr** müssen eine kommerzielle Lizenz erwerben.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-**$199 / Jahr** — deckt alle Spiele und Produkte ab, die während des 12-monatigen Lizenzzeitraums öffentlich veröffentlicht wurden.
-
-[Kommerzielle Lizenz erwerben →](https://tasks.valkarn.com/licensing)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ---
 
-## Beiträge
+## Kommerzielle Lizenz (optional)
 
-Alle Beiträge unterliegen unserem [Beitragslizenzvertrag (CLA)](https://github.com/unapartidamas/valkarn-tasks/blob/master/CLA.md).
-Mit dem Einreichen eines Pull Requests stimmen Sie dessen Bedingungen zu.
+Eine **Kommerzielle Lizenz** ist für Studios und Unternehmen verfügbar, die Folgendes wünschen:
+
+- Priorisierte Fehlerbehebungen und Funktionsanfragen
+- Kommerzielle Garantie und rechtliche Haftungsfreistellung
+- Dedizierter Support mit garantierten Reaktionszeiten
+- Rechnung und Quittung für buchhalterische Zwecke
+
+[Mehr erfahren →](https://tasks.valkarn.com/licensing)
 
 ---
 
-Vollständiger Lizenztext: [LICENSE.md auf GitHub](https://github.com/unapartidamas/valkarn-tasks/blob/master/LICENSE.md)
+Vollständiger Lizenztext: [LICENSE.md auf GitHub](https://github.com/unapartidamas/valkarn-tasks/blob/main/LICENSE.md)

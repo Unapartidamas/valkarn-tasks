@@ -5,28 +5,31 @@ title: Licence
 
 # Licence
 
-## Licence Gratuite
+Valkarn Tasks est un logiciel open source sous la **MIT License** — gratuit pour tous, sans seuils de revenus ni restrictions.
 
-Gratuit pour les **particuliers** et les **organisations avec un chiffre d'affaires annuel inférieur à 1 000 000 USD**.
+## MIT License
 
-Vous pouvez utiliser, copier, modifier et distribuer Valkarn Tasks dans vos projets sans frais,
-à condition que l'avis de droits d'auteur soit inclus dans toutes les copies ou parties substantielles du logiciel.
+Copyright (c) Una Partida Mas
 
-## Licence Commerciale
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-Les organisations avec un **chiffre d'affaires annuel de 1 000 000 USD ou plus** doivent obtenir une Licence Commerciale.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-**$199 / an** — couvre tous les jeux et produits lancés publiquement pendant la période de licence de 12 mois.
-
-[Acheter une Licence Commerciale →](https://tasks.valkarn.com/licensing)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ---
 
-## Contributions
+## Licence Commerciale (optionnelle)
 
-Toutes les contributions sont soumises à notre [Accord de Licence de Contributeur (CLA)](https://github.com/unapartidamas/valkarn-tasks/blob/master/CLA.md).
-En soumettant une pull request, vous acceptez ses termes.
+Une **Licence Commerciale** est disponible pour les studios et les entreprises souhaitant bénéficier de :
+
+- Corrections de bugs et demandes de fonctionnalités prioritaires
+- Garantie commerciale et indemnisation juridique
+- Support dédié avec des délais de réponse garantis
+- Facture et reçu à des fins comptables
+
+[En savoir plus →](https://tasks.valkarn.com/licensing)
 
 ---
 
-Texte complet de la licence : [LICENSE.md sur GitHub](https://github.com/unapartidamas/valkarn-tasks/blob/master/LICENSE.md)
+Texte complet de la licence : [LICENSE.md sur GitHub](https://github.com/unapartidamas/valkarn-tasks/blob/main/LICENSE.md)
