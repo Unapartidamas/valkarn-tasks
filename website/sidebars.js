@@ -32,6 +32,7 @@ const sidebars = {
         'api/vlk-task-t',
         'api/completion-source',
         'api/channels',
+        'api/semaphore',
         'api/player-loop-timing',
         'api/settings',
       ],

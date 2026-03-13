@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2026-03-13
+
+### Added
+
+- `ValkarnSemaphore` — zero-allocation async semaphore built on `ValkarnTask`. Fast path (uncontended) returns `ValkarnTask.CompletedTask` with zero allocation; slow path uses pooled waiter nodes, zero GC in steady state. Supports `WaitAsync`, synchronous `Wait`, multi-slot `Release`, cancellation, and `IDisposable`. Waiters served in FIFO order; completions dispatched outside the internal lock to prevent deadlocks on re-entry.
+
+---
+
 ## [1.0.0] - 2026-03-12
 
 ### Added

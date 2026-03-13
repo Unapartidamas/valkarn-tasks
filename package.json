@@ -1,6 +1,6 @@
 {
     "name": "com.unapartidamas.valkarn.tasks",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "displayName": "Valkarn Tasks for Unity",
     "description": "Zero-allocation async/await framework for Unity. Struct-based tasks, pooled runners, IL2CPP-optimized, with lifecycle cancellation, channels, and compile-time diagnostics.",
     "unity": "2023.1",
